@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+media/
 .Python
 build/
 develop-eggs/
@@ -50,10 +51,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
-# Translations
-*.mo
-*.pot
 
 # Django stuff:
 *.log
@@ -127,3 +124,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MacOS
+.DS_Store
+
